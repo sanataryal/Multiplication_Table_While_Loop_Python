@@ -1,0 +1,8 @@
+#multiplication table using while loop
+a = int(input("Enter the number for multiplication table: "))
+b = int(input("Enter the number upto you want multiplication table: "))
+num = 1
+print("Your Multiplication Table of", a, "is:")
+while num < b + 1:
+    print( a, "X", num, "=", a * num)
+    num += 1
